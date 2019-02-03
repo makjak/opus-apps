@@ -1,4 +1,4 @@
-local injector = _G.requireInjector or load(http.get('https://raw.githubusercontent.com/kepler155c/opus/develop/sys/apis/injector.lua').readAll())()
+local injector = _G.requireInjector or load(http.get('https://raw.githubusercontent.com/makjak/opus/develop/sys/apis/injector.lua').readAll())()
 injector()
 
 local Canvas = require('ui.canvas')
